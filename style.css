@@ -14,7 +14,7 @@
   }
   
   html {
-    background-color: plum;
+    background-color: cadetblue;
   }
   
   button {
@@ -74,5 +74,5 @@
   }
   
   .operator {
-    background-color: orange;
+    background-color: rgb(194, 83, 83);
   }

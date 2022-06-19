@@ -88,7 +88,7 @@ function multiply(a, b) {
 
 function divide(a, b) {
   if (b === 0) {
-    return "NO CAN DO BABES";
+    return "NICE TRY BABY";
   }
   return parseFloat((a / b).toFixed(2));
 }
