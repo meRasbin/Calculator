@@ -7,6 +7,7 @@ const output = document.querySelector(".output");
 const allClear = document.querySelector(".allClear");
 const decimalButton = document.querySelector(".deci");
 
+
 decimalButton.addEventListener("click", disableButton);
 allClear.addEventListener("click", clearScreen);
 equal.addEventListener("click", saveSecondValue);
@@ -92,6 +93,9 @@ function divide(a, b) {
   }
   return parseFloat((a / b).toFixed(2));
 }
+function percentage(a, b){
+    return parseFloat((a % b).toFixed(2));
+}
 
 // * Function to check the operator clicked and send it to respective funciton for calculation
 function operate(operator, a, b) {
@@ -109,6 +113,9 @@ function operate(operator, a, b) {
 
     case "X":
       return multiply(a, b);
+    
+    case "%":
+        return percentage(a, b);
 
     default:
       break;

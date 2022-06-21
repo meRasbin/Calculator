@@ -7,7 +7,8 @@
   }
   
   .output {
-    font-size: 30px;
+    font-size: 40px;
+    color: white;
     height: 45px;
     padding-left: 10px;
     padding-top: 3px;
@@ -15,6 +16,8 @@
   
   html {
     background-color: cadetblue;
+    align-content: center;
+    margin-top: 100px;
   }
   
   button {
@@ -44,8 +47,8 @@
   
   .screen {
     height: 50px;
-  
     display: flex;
+    color: white;
     align-items: flex-end;
     justify-content: flex-end;
     padding-right: 10px;
@@ -54,25 +57,26 @@
   .mainScreen {
     width: 300px;
     border: 1px solid;
-    background-color: gray;
+    background-color:black;
     border-radius: 10px;
   }
   
   .clear {
-    background-color: dodgerblue;
+    background-color: grey;
     font-size: 25px;
   }
   
   .allClear {
-    background-color: dodgerblue;
+    background-color: grey;
     font-size: 25px;
   }
   
   .equal {
-    background-color: green;
+    background-color: #ff7b00;
     font-size: 25px;
   }
   
   .operator {
-    background-color: rgb(194, 83, 83);
+    background-color: #ff7b00;
+    
   }
